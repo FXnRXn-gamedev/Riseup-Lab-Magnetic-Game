@@ -7,6 +7,10 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utils/SwipePanel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/NPCBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectId" id="2w80oXZ3084baXqWo3NlxEeF5y9" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -53,7 +57,11 @@
       <workItem from="1745408079873" duration="1828000" />
       <workItem from="1745416978126" duration="3178000" />
       <workItem from="1745458936707" duration="3568000" />
-      <workItem from="1745462556338" duration="340000" />
+      <workItem from="1745462556338" duration="5370000" />
+      <workItem from="1745468825113" duration="6014000" />
+      <workItem from="1745477301648" duration="12310000" />
+      <workItem from="1745546528677" duration="4174000" />
+      <workItem from="1745558038861" duration="499000" />
     </task>
     <servers />
   </component>

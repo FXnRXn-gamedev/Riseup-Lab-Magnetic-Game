@@ -15,5 +15,12 @@ namespace FXnRXn
 		}
     
 	}
+
+	[System.Serializable]
+	public enum PoleState
+	{
+		RedPole,
+		BluePole
+	}
 }
 
