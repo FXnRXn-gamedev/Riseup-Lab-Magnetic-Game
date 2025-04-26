@@ -8,6 +8,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Manager/FadeManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utils/SwipePanel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/NPCBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -62,6 +63,9 @@
       <workItem from="1745477301648" duration="12310000" />
       <workItem from="1745546528677" duration="4174000" />
       <workItem from="1745558038861" duration="1094000" />
+      <workItem from="1745576276466" duration="2222000" />
+      <workItem from="1745628315589" duration="3467000" />
+      <workItem from="1745632536568" duration="1382000" />
     </task>
     <servers />
   </component>

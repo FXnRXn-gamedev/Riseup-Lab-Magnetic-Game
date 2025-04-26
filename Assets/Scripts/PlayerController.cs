@@ -207,12 +207,12 @@ namespace FXnRXn
 
 		public void RepelForce(GameObject _targetNPC)
 		{
-			
-			Vector3 repulseDirection = (_targetNPC.transform.position - transform.forward).normalized;
+			Vector3 repulseDirection = (_targetNPC.transform.position - transform.position).normalized;
 			transform.DOMove(repulseDirection, repelForce).OnComplete(() =>
 			{
 				isStuck = false;
 			});
+			
 		}
 
 		private void OnControllerColliderHit(ControllerColliderHit hit)
@@ -225,8 +225,6 @@ namespace FXnRXn
 				
 			}
 		}
-		
-		
 
 		private void OnDrawGizmosSelected()
 		{
