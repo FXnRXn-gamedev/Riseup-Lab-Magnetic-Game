@@ -84,8 +84,6 @@ namespace FXnRXn
 			rend.material.color = currentColor;
 			playerState = PoleState.RedPole;
 			StartCoroutine(ColorChanger());
-			
-			
 		}
 		
 		private void Update()
@@ -208,9 +206,10 @@ namespace FXnRXn
 		public void RepelForce(GameObject _targetNPC)
 		{
 			Vector3 repulseDirection = (_targetNPC.transform.position - transform.position).normalized;
-			transform.DOMove(repulseDirection, repelForce).OnComplete(() =>
+			transform.DOLocalMove(repulseDirection * 5f, repelForce).OnComplete(() =>
 			{
 				isStuck = false;
+				targetNPC = null;
 			});
 			
 		}
@@ -221,8 +220,6 @@ namespace FXnRXn
 			{
 				isStuck = true;
 				// canMove = false;
-				
-				
 			}
 		}
 
